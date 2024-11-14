@@ -8,6 +8,11 @@
   --lightBlue: #eeeeff;
   --shadow: 0px 23px 21px -8px rgba(136, 160, 255, 0.25);
 }
+body{
+  background-color:black;
+  color: white;
+  font-family: "Roboto";
+}
 
 * {
   margin: 0;
@@ -110,3 +115,90 @@ a {
     font-size: 1.2rem;
   }
 }
+
+.Main{
+  display: flex;
+  justify-content: space-between;
+}
+.right{
+  width: 380px;
+
+}
+.right img{
+  border-radius: 20%;
+  float: right;
+}
+span{
+  color: red;
+}
+
+.about{
+  display: flex;
+  justify-content: space-between;
+
+}
+.education{
+  margin-left: 20px;
+  width: 400px;
+  background-color: #131110;
+  border-radius: 30px;
+  height: 380px;
+  transition: 0.3s;
+
+}
+.education:hover {
+  background-color:gray;
+}
+.specialties:hover {
+  background-color:gray;
+}
+.work:hover {
+  background-color:gray;
+}
+.specialties{
+  margin-right: 20px;
+  width: 400px;
+  background-color: #131110;
+  border-radius: 30px;
+  height: 380px;
+  transition: 0.3s;
+}
+.work{
+  padding-right: 20px;
+  width: 400px;
+  height: 350px;
+  background-color: #131110;
+  border-radius: 30px;
+  height: 380px;
+  transition: 0.3s;
+}
+
+.images{
+  display: flex;
+  justify-content:space-evenly;
+}
+.im{
+  width: 500px;
+  height: 450px;
+  margin-bottom: 40px;
+  border-radius: 30px;
+}
+.lang{
+  display: flex;
+  justify-content: space-evenly;
+  padding: 20px;
+}
+.lang img{
+  width: 100px;
+  border-radius: 30px;
+}
+
+.Project{
+  display: flex;
+  justify-content: space-evenly;
+
+}
+.proj{
+  text-align: center;
+}
+
